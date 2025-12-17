@@ -9,7 +9,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RotationsReader {
+public class FileReader {
 
     public static List<String> getRotationsFromFile(Path path) {
         List<String> rotations = new ArrayList<>();

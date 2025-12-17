@@ -7,7 +7,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Path path = Path.of("./problem-1/src/main/resources/puzzle.txt"); // answer = 1084
-        List<String> rotations = RotationsReader.getRotationsFromFile(path);
+        List<String> rotations = FileReader.getRotationsFromFile(path);
         System.out.println("Password: " + Solver.solve(rotations));
     }
 }
